@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+} /*untuk background*/ 
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} /*untuk mengatur tulisan pada navbar*/
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 10%;
+} /*untuk mengatur posisi teks pada header*/
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+} /*untuk mengatur agar navbar lebih tertata*/
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+} /* untuk mengatur pperubahan warna pada saat mau diklik */
+
+.nav_links li a:hover{
+    color:  #0088a9;
+} /* untuk mengatur warna pada saat mau diklik */
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #0088a9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+} /* untuk mengasih style pada button kontak saya */
+
+button:hover{
+    background-color: rgba(0,136,169,0.8 );
+} /* agar saat contact saya diklik tulisanya berubah*/
+
+.rara{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} /* untuk mengatur font pada isi html nya*/
